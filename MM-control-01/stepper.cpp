@@ -12,12 +12,12 @@
 #include "pins.h"
 #include "tmc2130.h"
 
-int8_t filament_type[EXTRUDERS] = {-1, -1, -1, -1, -1, -1, -1};
+int8_t filament_type[EXTRUDERS] = {-1, -1, -1, -1, -1, -1, -1, -1, -1, -1};
 static bool isIdlerParked = false;
 
-static const int idler_steps_after_homing = -130;
+static const int idler_steps_after_homing = -180;
 
-static const int idler_steps = 1420 / 4;    // 2 msteps = 180 / 4
+static const int idler_steps = 1065 / 4;    // 2 msteps = 180 / 4
 static const int idler_parking_steps = (idler_steps / 2) + 40;  // 40
 
 

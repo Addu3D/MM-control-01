@@ -19,3 +19,5 @@ Doc
 .pio
 MM-control-01_cmake
 .vscode
+CMakeFiles/cmake.check_cache
+CMakeCache.txt
